@@ -251,7 +251,7 @@ class Dawn:
                 end="\r",
                 flush=True
             )
-            await asyncio.sleep(10 * 60)
+            await asyncio.sleep(1 * 60)
         
     async def process_accounts(self, app_id: str, email: str, token: str, use_proxy: bool):
         tasks = [
